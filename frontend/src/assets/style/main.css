@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+}
+main{
+  margin-top: 8%;
+}
+.btn{
+  
+  border-radius: 17px !important;
+  
+}
+.bg-purple{
+  background-color: #5a409b !important;
+}
+.clr-white{
+  color: #fff !important;
+
+}
+.border-gray{
+  border: 1px solid #d0cdcd !important;
+}
+.pr-10{
+  padding-right:10px ;
+}
+.pl-10{
+  padding-left:10px ;
+}
+.mr-15
+{
+  margin-right: 15px;
+}
+.mt-20{
+  margin-top: 20px !important;
+
+}
+.ml-20{
+  margin-left: 20px;
+}
+/* filter */
+.filter-row{
+  border-radius:100px ;
+border:solid 1px #d0cdcd;
+padding-left: 0 !important;
+padding-right:0 !important ;
+display: flex;
+}
+
+.filter-row .filter-col {
+  flex: 1;
+  position: relative;
+  padding: 10px 8px;
+  font-size: 11px;
+}
+
+.bold{
+  font-weight: bold;
+}
+.gray-text{
+  color: #a6a5ae;
+  
+}
+.search-btn{
+  background-color: #5a409b;
+    border-radius: 50%;
+    padding: 5px 8px;
+    height: 32px;
+    width: 32px;
+    margin-top: 16px;
+    margin-left: 5px;
+}
+.vertical-line {
+  width: 1px !important;
+  height: 51px;
+  background-color: #d0cdcd;
+  margin-top: 10px !important;
+}
+.filter-link{
+  display: flex;
+}
+.filter-link a{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+    color: #050536;
+    padding: 20px 16px;
+}
+.filter-link a:hover {
+
+  color: black;
+}
+
+.filter-link a.active {
+  color: #5a409b;
+  font-weight: 700;
+  position: relative;
+
+}
+
+.filter-link a.active::after {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Adjust the height of the underline */
+  background-color: #5a409b; /* Adjust the color of the underline */
+}
+
+.map-btn
+{
+  float: left;
+
+  margin-top: 14px;
+}
+/* end filter */
+
+/* start filter bottom */
+.item-img{
+  width: 24px;
+  height: 24px;
+  border-radius: 0;
+  margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.item{
+  opacity:60%;
+}
+/* end filter bottom */
+
+@media (max-width: 576px)
+{
+  main{
+    margin-top: 17%;
+  }
+}
